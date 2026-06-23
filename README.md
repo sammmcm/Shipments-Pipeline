@@ -26,6 +26,7 @@ shipments_pipeline/
 ├── transform.py            # Validates and cleans rows
 ├── load.py                 # Inserts clean rows into PostgreSQL
 ├── main.py                 # Pipeline entrypoint
+├── conftest.py             # Adds root to sys.path for pytest
 ├── requirements.txt
 └── .env
 ```
