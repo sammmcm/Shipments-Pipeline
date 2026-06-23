@@ -26,6 +26,7 @@ shipments_pipeline/
 ├── transform.py            # Validates and cleans rows
 ├── load.py                 # Inserts clean rows into PostgreSQL
 ├── main.py                 # Pipeline entrypoint
+├── conftest.py             # Adds root to sys.path for pytest
 ├── requirements.txt
 └── .env
 ```
@@ -35,7 +36,7 @@ shipments_pipeline/
 ### 1. Clone the repo and create a virtual environment
 
 ```bash
-git clone https://github.com/your-username/shipments-pipeline.git
+git clone https://github.com/sammmcm/shipments-pipeline.git
 cd shipments-pipeline
 python -m venv venv
 venv\Scripts\activate      # Windows
