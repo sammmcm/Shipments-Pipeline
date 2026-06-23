@@ -1,0 +1,8 @@
+shipment_id,destination,weight_kg,status
+S001,Monterrey,12.5,delivered
+S002,Ciudad de México,8.3,in_transit
+S003,Guadalajara,0,pending
+S004,Monterrey,-3.0,delivered
+S005,Tijuana,five,in_transit
+S006,,22.1,delivered
+S007,Saltillo,5.0,
