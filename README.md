@@ -35,7 +35,7 @@ shipments_pipeline/
 ### 1. Clone the repo and create a virtual environment
 
 ```bash
-git clone https://github.com/your-username/shipments-pipeline.git
+git clone https://github.com/sammmcm/shipments-pipeline.git
 cd shipments-pipeline
 python -m venv venv
 venv\Scripts\activate      # Windows
